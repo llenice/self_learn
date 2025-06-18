@@ -1,0 +1,36 @@
+{
+    "name": "OOP and Inheritance",
+    "endpoint": "hw06",
+    "src": [
+        "hw06.py"
+    ],
+    "tests": {
+        "hw06.py:shiftcipher": "doctest",
+        "hw06.py:dictionarycipher": "doctest",
+        "hw06.py:fencecipher": "doctest",
+        "hw06.py:multipleencryption": "doctest",
+        "hw06.py:splitencryption": "doctest",
+        "hw06.py:encryption": "doctest",        
+        "hw06.py:Card.__init__": "doctest",
+        "hw06.py:Card.power": "doctest",
+        "hw06.py:Player.__init__": "doctest",
+        "hw06.py:Player.draw": "doctest",
+        "hw06.py:Player.play": "doctest",
+        "hw06.py:TutorCard.effect": "doctest",
+        "hw06.py:TACard.effect": "doctest",
+        "hw06.py:ProfessorCard.effect": "doctest",
+        "hw06.py:shiftdecipher": "doctest",
+        "hw06.py:dictionarydecipher": "doctest",
+        "hw06.py:fencedecipher": "doctest",
+        "hw06.py:multipledecryption": "doctest",
+        "hw06.py:splitdecryption": "doctest",
+        "hw06.py:decryption": "doctest",
+        "hw06.py:Fib": "doctest"
+    },
+    "protocols": [
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}
